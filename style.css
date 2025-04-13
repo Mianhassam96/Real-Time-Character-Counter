@@ -5,9 +5,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
   font-family: 'Poppins', sans-serif;
 }
+
 
 /* Container Styling */
 .container {
