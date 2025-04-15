@@ -1,19 +1,15 @@
 /* General Body and Layout */
-
 body {
   margin: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background: linear-gradient(135deg, #e0eafc, #cfdef3);
   font-family: 'Poppins', sans-serif;
 }
-.main {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 /* Container Styling */
 .container {
   background: #fff;
@@ -188,31 +184,4 @@ body {
 
 .char-limit-input:focus {
   border-color: #ff6f61;
-}
-.footer {
-  background-color: #111;
-  color: #f1f1f1;
-  text-align: center;
-  padding: 18px 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.footer p {
-  margin: 0;
-  color: #ccc;
-  letter-spacing: 0.5px;
-}
-
-.footer p span {
-  color: #00b894;
-  font-weight: 600;
-} span {
-  color: #00b894;
-  font-weight: bold;
 }
