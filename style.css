@@ -185,3 +185,21 @@ body {
 .char-limit-input:focus {
   border-color: #ff6f61;
 }
+.footer {
+  background-color: #111;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.footer p {
+  margin: 0;
+  color: #ccc;
+}
+
+.footer p span {
+  color: #00b894;
+  font-weight: bold;
+}
